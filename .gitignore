@@ -53,3 +53,8 @@ mlartifacts/
 
 # Jupyter
 .ipynb_checkpoints/
+# serve the exact artifact that was evaluated
+!models/model.json
+!models/metadata.json
+mlflow.db
+*.log
